@@ -13,8 +13,8 @@ public class TestCircle {
 
         for (Circle circle : circles) {
             System.out.println(circle);
-            System.out.println(circle.x);
-            System.out.println(circle.y);
+            System.out.println(circle.getX());
+            System.out.println(circle.getY());
             System.out.println();
         }
     }
